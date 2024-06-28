@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  height: 100vh;
+}
+.heading {
+  color: #f0bb03;
+  font-family: 'Robotto';
+  font-size: 65px;
+}
+.description {
+  color: white;
+  font-size: 25px;
+}
+.subscribeButton {
+  text-align: center;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 15px;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 95px;
+  }
+  .description {
+    font-size: 35px;
+  }
+  .subscribeButton {
+    font-size: 20px;
+  }
+}
